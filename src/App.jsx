@@ -12,9 +12,15 @@ function App() {
 
       <a className='p-4 bg-white rounded-md' href="https://kesley.dev">website</a>
 
-      <a className='p-4 bg-white rounded-md' href="https://www.inflncrwrd.com/52ATYK8BF4">link safe 1</a>
-      <a className='p-4 bg-white rounded-md' href="https://www.inflncrwrd.com/DFXG2Q451J">link safe 2</a>
-      <a className='p-4 bg-white rounded-md' href="https://www.inflncrwrd.com/8NWHDA7QBK">link safe 3</a>
+      {setTimeout(() => {
+        return (
+          <>
+          <a className='p-4 bg-white rounded-md' href="https://www.inflncrwrd.com/52ATYK8BF4">link safe 1</a>
+          <a className='p-4 bg-white rounded-md' href="https://www.inflncrwrd.com/DFXG2Q451J">link safe 2</a>
+          <a className='p-4 bg-white rounded-md' href="https://www.inflncrwrd.com/8NWHDA7QBK">link safe 3</a>
+          </>
+        )
+      }, 2000)}
     </div>
   )
 }
